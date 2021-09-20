@@ -41,7 +41,7 @@ username: user
 password: 1234  
 
 ADMIN  
-username: sourov  
+username: admin  
 password: 1234  
 
 Till now I have implemented:   
