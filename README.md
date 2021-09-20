@@ -31,20 +31,24 @@ Till now, following API's are availale. I shall add remaining API's within gradu
 `/project/getAll`,  
 `/delete/{projectId}`  
 
-Credentials:
+Credentials:  
 
-USER:
-username: user
-password: 1234
+USER:  
+username: user  
+password: 1234  
 
-ADMIN
-username: sourov
-password: 1234
+ADMIN  
+username: sourov  
+password: 1234  
 
-Till now I have implemented: 
-1. Create, Get, Delete project API.
-2. Spring security (basic). Two users having different roles (USER and ADMIN)
-
-Remaining: 
-4. Task related operations and search.
-5. REST API validation.
+Till now I have implemented:   
+1. Create, Get, Delete project REST API.  
+2. Spring security (basic). Two users having different roles (USER and ADMIN).    
+3. Authentication credentials is stored into DB.
+4. A JsonUtil class is added for data interchange in json format.
+5. Automatic DB creation during application startup.
+ 
+Remaining:  
+1. Task related operations and search.  
+2. REST API validation.  
+3. JSON form data interchange.
