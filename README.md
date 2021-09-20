@@ -25,3 +25,12 @@ Till now, following API's are availale. I shall add remaining API's within gradu
 `/project/getAll`,  
 `/delete/{projectId}`  
 
+Credentials:
+
+USER:
+username: user
+password: 1234
+
+ADMIN
+username: sourov
+password: 1234
