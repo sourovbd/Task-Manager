@@ -31,6 +31,9 @@ Till now, following API's are availale. I shall add remaining API's within gradu
 `/project/getAll`,  
 `/delete/{projectId}`  
 
+API testing format link:  
+https://docs.google.com/document/d/1se70zAJEeJZa2weVtX6TO2eH3hOccP6EVSxwDvMebt4/edit?usp=sharing   
+
 Credentials:  
 
 USER:  
@@ -47,8 +50,10 @@ Till now I have implemented:
 3. Authentication credentials is stored into DB.
 4. A JsonUtil class is added for data interchange in json format.
 5. Automatic DB creation during application startup.
+6. API test format via Postman is added.
  
 Remaining:  
 1. Task related operations and search.  
 2. REST API validation.  
 3. JSON form data interchange.
+
