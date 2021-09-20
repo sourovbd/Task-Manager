@@ -32,7 +32,6 @@ public class ProjectDto implements Serializable {
 
     public Project update(Project project, ProjectDto projectDto) {
 
-        //project.setId(projectDto.getId());
         project.setProjectId(Long.parseLong(projectDto.getProjectId()));
         project.setName(projectDto.getName());
 
