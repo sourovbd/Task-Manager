@@ -1,6 +1,5 @@
 package com.cardinity.task.manager.service;
 
-import com.cardinity.task.manager.entity.Project;
 import com.cardinity.task.manager.entity.User;
 import com.cardinity.task.manager.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -4,14 +4,13 @@ import com.cardinity.task.manager.dto.ProjectDto;
 import com.cardinity.task.manager.entity.Project;
 import com.cardinity.task.manager.service.ProjectService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/project")
+@RequestMapping("project")
 public class ProjectController {
 
     @Autowired
