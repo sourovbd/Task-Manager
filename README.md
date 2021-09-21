@@ -15,16 +15,17 @@ Build Spring Boot Project with Maven
 Run Spring Boot app using Maven:  
 `mvn spring-boot:run`
 
-Before maven build for the first time, 
-1. Create a database named `taskmanager` in mysql. 
-2. After that, make the following configuration value as `create` in `application.properties` file for running the app for the first time ever.
+Before maven build for the first time,    
+1. Create a database named `taskmanager` in mysql.    
+2. After that, make the following configuration value as `create` in `application.properties` file for running the app for the first time ever.  
 
-spring.jpa.hibernate.ddl-auto=`create`
+`spring.jpa.hibernate.ddl-auto=create`    
 
-Then make the value as `update`. This should remain same always.
-spring.jpa.hibernate.ddl-auto=`update`
+Then make the value as `update`. This should remain same always.    
 
-For testing REST API I hvae used Postman API testing tool.   
+`spring.jpa.hibernate.ddl-auto=update`    
+
+For testing REST API I hvae used Postman API testing tool.     
 For getting API response need to create user at first. I have added a script for adding users.   
 Location: `resources/scripts/user.sql`   
 
