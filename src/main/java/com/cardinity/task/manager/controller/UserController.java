@@ -1,8 +1,6 @@
 package com.cardinity.task.manager.controller;
 
-import com.cardinity.task.manager.dto.ProjectDto;
 import com.cardinity.task.manager.dto.UserDto;
-import com.cardinity.task.manager.entity.Project;
 import com.cardinity.task.manager.entity.User;
 import com.cardinity.task.manager.service.UserService;
 import lombok.NonNull;
@@ -24,9 +22,8 @@ public class UserController {
 
     @PostMapping("/save")
     public User save(@NonNull @RequestBody UserDto userDto) {
-
-        return userService.save(userDto.to(userDto));
+        User user = userDto.to(userDto);
+        user.setPassword(passwordEncoder.encode(userDto.getPassword()));
+        return userService.save(user);
     }
-
-
 }
