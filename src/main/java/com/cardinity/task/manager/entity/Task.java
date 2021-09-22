@@ -20,10 +20,11 @@ public class Task {
     @Column(name = "status", nullable = false)
     private String status;
 
+    @Column(name="project", nullable = false, updatable = false)
+    private String project;
+
     @Temporal(TemporalType.TIMESTAMP)
-    @Column(name = "due_date", nullable = false, updatable = false)
+    @Column(name = "due_date", nullable = false)
     private Date dueDate;
 
-    @Column(name = "is_closed", nullable = false)
-    private boolean isClosed;
 }
