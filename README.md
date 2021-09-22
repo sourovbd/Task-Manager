@@ -37,8 +37,11 @@ User is permitted for the following actions:
 `/project/getAll`,  
 `/delete/{projectId}`  
 
-Admin is permitter for the following actions:
+Admin is permitted for the following actions:  
 `/user/save`,  
+`/project/save`,  
+`/project/getAll`,  
+`/delete/{projectId}`  
 
 API testing format link:  
 https://docs.google.com/document/d/1se70zAJEeJZa2weVtX6TO2eH3hOccP6EVSxwDvMebt4/edit?usp=sharing   
