@@ -29,7 +29,15 @@ For testing REST API I hvae used Postman API testing tool.
 For getting API response need to create user at first. I have added a script for adding users.   
 Location: `resources/scripts/user.sql`   
 
-Till now, following API's are availale. I shall add remaining API's within gradually within a short time.    
+Till now, following API's are availale(also workable). I shall add remaining API's within gradually within a short time. 
+
+User is permitted for the following actions:
+
+`/project/save`,  
+`/project/getAll`,  
+`/delete/{projectId}`  
+
+Admin is permitted for the following actions:  
 `/user/save`,  
 `/project/save`,  
 `/project/getAll`,  
