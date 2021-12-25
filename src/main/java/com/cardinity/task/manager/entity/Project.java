@@ -13,8 +13,8 @@ public class Project {
     @Column(name = "id", nullable = false)
     private long id;
 
-    @Column(name = "project_id", nullable = false)
-    private long projectId;
+    @Column(name = "project_code", nullable = false)
+    private long projectCode;
 
     @Column(name = "name", nullable = false)
     private String name;
