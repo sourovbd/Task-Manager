@@ -32,16 +32,18 @@ Location: `resources/scripts/user.sql`
 Till now, following API's are availale(also workable). I shall add remaining API's within gradually within a short time. 
 
 User is permitted for the following actions:
+Create project : `/project/save`,
+Get all projects : `/project/getAll`,  
+Delete project : `/delete/{projectId}`  
+  
 
-`/project/save`,  
-`/project/getAll`,  
-`/delete/{projectId}`  
+
 
 Admin is permitted for the following actions:  
-`/user/save`,  
-`/project/save`,  
-`/project/getAll`,  
-`/delete/{projectId}`  
+Save user : `/user/save`,  
+Create project : `/project/save`,
+Get all projects : `/project/getAll`,  
+Delete project : `/delete/{projectId}`   
 
 API testing format link:  
 https://docs.google.com/document/d/1se70zAJEeJZa2weVtX6TO2eH3hOccP6EVSxwDvMebt4/edit?usp=sharing   
